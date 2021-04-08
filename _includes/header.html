@@ -1,8 +1,12 @@
 <nav>
     <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/cv">CV</a></li>
-        <li><a href="/blog">Blog</a></li>
+        <li><a href="/" {% if page.url == "/" %}class="current"{% endif %}>
+            Portfolio
+        </a></li>
+        <li><a href="/about.html" {% if page.url == "/about.html" %}class="current"{% endif %}>
+            CV
+        </a></li>
+        <li><a href="/blog">Email</a></li>
+        <li><a href="www.linkedin.com">in</a></li>
     </ul>
 </nav>
