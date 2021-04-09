@@ -7,10 +7,11 @@ title: Portfolio test
 	<p>I'm testing this thing...</p>
 </div>
 
+<div class="portfolio__project_preview"></div>
 {% for project_preview in site.project_preview %}
-<div class="portfolio__project_preview">
+
   <h2>{{ project_preview.name }}</h2>
   <span>{{ project_preview.wherewhen }}</span>
-  <p>{{ project_preview.content }}</p>
-</div>
+  <div>{{ project_preview.content }}</div>
 {% endfor %}
+</div>
