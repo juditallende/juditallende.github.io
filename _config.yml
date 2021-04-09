@@ -6,3 +6,4 @@ permalink: /blog/:year/:month/:day/:title
 colections:
   project_preview:
     output: true
+    permalink: /projects/:path/
