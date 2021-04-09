@@ -2,4 +2,4 @@
 name: Branding Design
 wherewhen: Versia · 2021
 ---
-<p>Text of project 2</p>
+Text of project 2

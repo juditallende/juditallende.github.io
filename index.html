@@ -8,10 +8,10 @@ title: Portfolio test
 </div>
 
 <div class="portfolio__project_preview"></div>
-{% for project_preview in site.project_preview %}
+{% for project in site.projects %}
 
-  <h2>{{ project_preview.name }}</h2>
-  <span>{{ project_preview.wherewhen }}</span>
-  <div>{{ project_preview.content }}</div>
+  <h2>{{ project.name }}</h2>
+  <span>{{ project.wherewhen }}</span>
+  <div>{{ project.content | markdownify }}</div>
 {% endfor %}
 </div>

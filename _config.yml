@@ -4,6 +4,6 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
 colections:
-  project_preview:
+  projects:
     output: true
     permalink: /projects/:path/

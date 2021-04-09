@@ -2,4 +2,4 @@
 name: Product Design
 wherewhen: Versia · 2021
 ---
-<p>Text of project 1</p>
+Text of project 1
