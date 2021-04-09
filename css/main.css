@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -18,6 +19,10 @@ a {
 }
 a:hover {
     text-decoration: underline;
+
+    text-decoration-color: pink;
+    text-decoration-thickness: 3px;
+    text-decoration-style: wavy;
 }
 h1 {
     font-size: 3em;

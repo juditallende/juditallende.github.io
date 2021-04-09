@@ -2,3 +2,6 @@ name: Github Pages plus Jekyll test
 markdown: kramdown
 
 permalink: /blog/:year/:month/:day/:title
+
+colections:
+  project_preview:
